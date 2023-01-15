@@ -16,8 +16,8 @@ onMounted(() => {
 
 
 function buttonClicked() {
-    tl.to(img, {display: 'none', duration: 0.1 });
-    tl.to(btn, { scaleX: 50, scaleY: 50, duration: 0.5 });
+    tl.to(img, {display: 'none', duration: 0.2 });
+    tl.to(btn, { scaleX: 50, scaleY: 50, duration: 0.2 });
     tl.to(close, {display: 'block'})
     tl.to(menu, { display: 'block', position: 'fixed', y: 40, duration: 0.3 }); 
 }
@@ -39,7 +39,7 @@ function closeMenu() {
             <li class="p-5 hover:underline"><NuxtLink to="/">Home</NuxtLink></li>
             <li class="p-5 hover:underline"><NuxtLink to="/about">About</NuxtLink></li>
             <li class="p-5 hover:underline"><NuxtLink to="/education">Education</NuxtLink></li>
-            <li class="p-5 hover:underline"><NuxtLink to="/">Experience</NuxtLink></li>
+            <li class="p-5 hover:underline"><NuxtLink to="/experience">Experience</NuxtLink></li>
             <li class="p-5 hover:underline"><NuxtLink to="/">Contacts</NuxtLink></li>
         </ul>
     </div>
