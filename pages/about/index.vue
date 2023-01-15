@@ -11,9 +11,6 @@
         z-index: 0;
         height: 35rem;
         margin-top: 10%;
-        /* position: absolute;
-        left: 0;
-        bottom: 8%; */
     }
     .block {
         z-index: 1;

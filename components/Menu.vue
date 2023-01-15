@@ -36,11 +36,11 @@ function closeMenu() {
 
     <div class="menu ml-12 text-white text-xl">
         <ul>
-            <li class="p-5 hover:underline"><NuxtLink to="/">Home</NuxtLink></li>
-            <li class="p-5 hover:underline"><NuxtLink to="/about">About</NuxtLink></li>
-            <li class="p-5 hover:underline"><NuxtLink to="/education">Education</NuxtLink></li>
-            <li class="p-5 hover:underline"><NuxtLink to="/experience">Experience</NuxtLink></li>
-            <li class="p-5 hover:underline"><NuxtLink to="/">Contacts</NuxtLink></li>
+            <li class="p-5 hover:underline"><NuxtLink to="/" @click="closeMenu()">Home</NuxtLink></li>
+            <li class="p-5 hover:underline"><NuxtLink to="/about" @click="closeMenu()">About</NuxtLink></li>
+            <li class="p-5 hover:underline"><NuxtLink to="/about/education" @click="closeMenu()">Education</NuxtLink></li>
+            <li class="p-5 hover:underline"><NuxtLink to="/about/experience" @click="closeMenu()">Experience</NuxtLink></li>
+            <li class="p-5 hover:underline"><NuxtLink to="/contact" @click="closeMenu()">Contacts</NuxtLink></li>
         </ul>
     </div>
 </template>
