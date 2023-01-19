@@ -32,7 +32,7 @@ function close() {
             <span class="text-lg">{{ userName }}</span>
         </div>
         <div v-else>
-            <button class="border border-grey rounded-lg p-2 login-button"
+            <button class="border border-grey rounded-lg p-2 fra-classe"
             @click="onOpenModal()">LOGIN</button>
         </div>
 
@@ -89,7 +89,7 @@ function close() {
     </div>
 </template>
 <style scoped>
-.login-button:hover {
+.fra-classe:hover {
     background-color: rgb(61, 19, 114, 0.4);
     color: white;
 }
