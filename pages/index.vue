@@ -2,6 +2,7 @@
 definePageMeta({
     layout: "without-name"
 })
+
 </script>
 <template>
     <div>

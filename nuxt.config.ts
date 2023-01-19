@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         '@/assets/css/main.css',
     ],
     modules: [
-        'vite-plugin-vue-type-imports/nuxt'
+        'vite-plugin-vue-type-imports/nuxt',
+        '@pinia/nuxt',
     ]
 })
