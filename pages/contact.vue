@@ -1,9 +1,9 @@
 <script setup>
-import middle from '~~/middleware/middle';
+// import middle from '~~/middleware/middle';
 
-definePageMeta({
-    middleware: middle
-})
+// definePageMeta({
+//     middleware: middle
+// })
 </script>
 
 <template>
